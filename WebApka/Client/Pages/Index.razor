@@ -1,0 +1,49 @@
+﻿@page "/"
+
+
+
+<PageTitle>Index</PageTitle>
+<h1>Lista Projektów</h1>
+
+Proszę wybrać projekt z listy:
+<asp:PlaceHolder runat="server" ID="place" />
+<br />
+
+<table class="table">
+        <thead>
+            <tr>
+                <th>NR</th>
+                <th>NAZWA</th>
+                <th>STATUS</th>
+            </tr>
+        </thead>
+        </table>
+@for (int i = 0; i < effects.Count/3; i++){
+    <table class="table">
+           <thead>
+            @for (int j = 0; j < 3; j++)
+            {
+                var x = effects[i*3+j];
+
+            <th>
+                <label>@x</label>
+            </th>
+}
+        </thead>
+    </table>
+}
+
+
+<form action="~/index.html" method="post">
+    <label for="fname">Wybierz projekt:</label>
+    <input id="myInput" type="text" onchange="changeV()"><br><br>
+    <button name="nrp" type="submit">Wybrano</button>
+</form>
+
+
+@code {
+    private List<string> effects = new List<string>() { "1", "2", "3" , "4" , "5", "6" };
+    class changeV { string idP = myInput.Value; }
+
+
+}

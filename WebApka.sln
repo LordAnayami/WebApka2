@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApka.Server", "WebApka\Server\WebApka.Server.csproj", "{7EB5B830-8998-4943-845F-4F2F3E0F8E88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApka.Client", "WebApka\Client\WebApka.Client.csproj", "{E82461F6-9044-46A4-BC21-92A7E49CEC26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApka.Shared", "WebApka\Shared\WebApka.Shared.csproj", "{C9CBD2F9-1DA2-4415-AE54-E5792DB3E517}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend", "Backend\Backend.csproj", "{04ADDD82-1F78-4798-AB05-DF2F37161242}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EB5B830-8998-4943-845F-4F2F3E0F8E88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EB5B830-8998-4943-845F-4F2F3E0F8E88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EB5B830-8998-4943-845F-4F2F3E0F8E88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EB5B830-8998-4943-845F-4F2F3E0F8E88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E82461F6-9044-46A4-BC21-92A7E49CEC26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E82461F6-9044-46A4-BC21-92A7E49CEC26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E82461F6-9044-46A4-BC21-92A7E49CEC26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E82461F6-9044-46A4-BC21-92A7E49CEC26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9CBD2F9-1DA2-4415-AE54-E5792DB3E517}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9CBD2F9-1DA2-4415-AE54-E5792DB3E517}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9CBD2F9-1DA2-4415-AE54-E5792DB3E517}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9CBD2F9-1DA2-4415-AE54-E5792DB3E517}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04ADDD82-1F78-4798-AB05-DF2F37161242}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04ADDD82-1F78-4798-AB05-DF2F37161242}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04ADDD82-1F78-4798-AB05-DF2F37161242}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04ADDD82-1F78-4798-AB05-DF2F37161242}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {338CAA65-6B24-42B4-8530-3D1F2B4C47E3}
+	EndGlobalSection
+EndGlobal
